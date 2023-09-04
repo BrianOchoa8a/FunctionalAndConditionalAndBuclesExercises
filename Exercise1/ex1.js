@@ -1,6 +1,9 @@
-function saludar(nombre) {
-    console.log("¡Hola, " + nombre + "! Bienvenido.");
-  }
-  
+
   var nombreUsuario = prompt("Por favor, ingresa tu nombre:");
   saludar(nombreUsuario);
+
+  function saludar(nombre) {
+    elemento=nombre;
+    console.log("¡Hola, " + elemento + "! Bienvenido.");
+  }
+
